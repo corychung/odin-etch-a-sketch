@@ -3,17 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Etch A Sketch</title>
     <link rel="stylesheet" href="style.css">
+    <!-- Taken from Google Fonts - importing Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=SUSE:wght@100..800&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Etch A Sketch</h1>
-    <h3>Mouse over the squares to start!</h3>
+    <h1>Etch-A-Sketch</h1>
     <div class="container"></div>
     <div>
-        <button class="new-grid-btn">MAKE NEW GRID</button>
-        <button class="reset-grid-btn">CLEAR GRID</button>
-        <input class="rainbow-toggle" type="checkbox"><label>Rainbow Mode</label>
+        <button class="new-grid-btn">New Grid</button>
+        <button class="reset-grid-btn">Clear Grid</button>
+        <input id="rainbow" class="rainbow-toggle" type="checkbox"><label for="rainbow">Rainbow Mode</label>
     </div>
    
     <script src="script.js"></script>
