@@ -1,4 +1,4 @@
-#The Odin Project: Etch-A-Sketch
+# The Odin Project: Etch-A-Sketch
 
 This project is [live on Github Pages.](https://corychung.github.io/odin-etch-a-sketch)
 
